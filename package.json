@@ -25,6 +25,9 @@
   "comments": {
     "//": "a9 insecure components"
   },
+  "overrides": {
+    "minimist": "^1.2.8"
+  },
   "scripts": {
     "start": "node server.js",
     "dev": "cross-env PORT=5000 nodemon",
